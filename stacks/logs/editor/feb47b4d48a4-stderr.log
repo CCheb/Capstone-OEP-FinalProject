@@ -1,0 +1,20 @@
+APPSMITH_GIT_ROOT: /appsmith-stacks/git-storage
+{"level":"info","ts":1777046633.1473858,"msg":"using config from file","file":"/tmp/appsmith/Caddyfile"}
+{"level":"warn","ts":1777046633.147716,"msg":"The nested 'metrics' option inside `servers` is deprecated and will be removed in the next major version. Use the global 'metrics' option instead."}
+{"level":"info","ts":1777046633.1488147,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1777046633.1765108,"msg":"maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined"}
+{"level":"info","ts":1777046633.1766222,"msg":"GOMEMLIMIT is updated","package":"github.com/KimMachineGun/automemlimit/memlimit","GOMEMLIMIT":7489795276,"previous":9223372036854775807}
+{"level":"info","ts":1777046633.1766727,"msg":"using config from file","file":"/tmp/appsmith/Caddyfile"}
+{"level":"warn","ts":1777046633.1772768,"msg":"The nested 'metrics' option inside `servers` is deprecated and will be removed in the next major version. Use the global 'metrics' option instead."}
+{"level":"info","ts":1777046633.178466,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1777046633.1815846,"logger":"admin","msg":"admin endpoint started","address":"0.0.0.0:2019","enforce_origin":false,"origins":["//0.0.0.0:2019"]}
+{"level":"warn","ts":1777046633.1816027,"logger":"admin","msg":"admin endpoint on open interface; host checking disabled","address":"0.0.0.0:2019"}
+{"level":"info","ts":1777046633.1830227,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x40004ace80"}
+{"level":"warn","ts":1777046633.1857867,"logger":"http.auto_https","msg":"server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server","server_name":"srv0","http_port":80}
+{"level":"warn","ts":1777046633.1879845,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1777046633.1880057,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1777046633.1880102,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1777046633.1880395,"msg":"serving initial configuration"}
+{"level":"info","ts":1777046633.1895351,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/appsmith-stacks/data/caddy","instance":"e5b5cdbf-d8c6-4b6e-9f02-e2b0dbe74def","try_again":1777133033.1895344,"try_again_in":86399.999999792}
+{"level":"info","ts":1777046633.1897216,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1777048912.434203,"msg":"quitting process immediately","signal":"SIGQUIT"}

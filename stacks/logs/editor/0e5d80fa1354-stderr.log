@@ -1,0 +1,20 @@
+APPSMITH_GIT_ROOT: /appsmith-stacks/git-storage
+{"level":"info","ts":1773072457.931447,"msg":"using config from file","file":"/tmp/appsmith/Caddyfile"}
+{"level":"warn","ts":1773072457.9317188,"msg":"The nested 'metrics' option inside `servers` is deprecated and will be removed in the next major version. Use the global 'metrics' option instead."}
+{"level":"info","ts":1773072457.933334,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773072457.9607677,"msg":"maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined"}
+{"level":"info","ts":1773072457.9608552,"msg":"GOMEMLIMIT is updated","package":"github.com/KimMachineGun/automemlimit/memlimit","GOMEMLIMIT":7395607756,"previous":9223372036854775807}
+{"level":"info","ts":1773072457.960876,"msg":"using config from file","file":"/tmp/appsmith/Caddyfile"}
+{"level":"warn","ts":1773072457.9611092,"msg":"The nested 'metrics' option inside `servers` is deprecated and will be removed in the next major version. Use the global 'metrics' option instead."}
+{"level":"info","ts":1773072457.962222,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773072457.9647975,"logger":"admin","msg":"admin endpoint started","address":"0.0.0.0:2019","enforce_origin":false,"origins":["//0.0.0.0:2019"]}
+{"level":"warn","ts":1773072457.9648128,"logger":"admin","msg":"admin endpoint on open interface; host checking disabled","address":"0.0.0.0:2019"}
+{"level":"info","ts":1773072457.967005,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x400075d980"}
+{"level":"warn","ts":1773072457.972166,"logger":"http.auto_https","msg":"server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server","server_name":"srv0","http_port":80}
+{"level":"warn","ts":1773072457.975002,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773072457.9750154,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773072457.9750166,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773072457.9750392,"msg":"serving initial configuration"}
+{"level":"info","ts":1773072457.977526,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/appsmith-stacks/data/caddy","instance":"e5b5cdbf-d8c6-4b6e-9f02-e2b0dbe74def","try_again":1773158857.9775229,"try_again_in":86399.999999334}
+{"level":"info","ts":1773072457.9778402,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1773073331.8252347,"msg":"quitting process immediately","signal":"SIGQUIT"}
